@@ -1,6 +1,7 @@
 {
   "name": "fixmind",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@uiw/react-md-editor": "^3.13.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
     "next": "12.1.6",
+    "next-remove-imports": "^1.0.6",
+    "pagedown": "^1.1.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-flow-renderer": "^10.3.0",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.3",
+    "rehype-sanitize": "^5.0.1",
+    "use-react-screenshot": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
